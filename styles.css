@@ -1,0 +1,130 @@
+body {
+	margin:0;
+}
+
+
+
+/* Layout
+------------------------------------------*/
+
+img{
+	max-width: 100%;
+	height:auto;
+}
+
+.def{
+	max-width: 100%;
+	height:auto;
+}
+
+
+
+/* skateboard overlay
+------------------------------------------*/
+
+.gallery, .def{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.gallery li .item, .def {
+	position:relative;
+	overflow:hidden;
+}
+
+.gallery span {
+	box-sizing: border-box;
+	position:absolute;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 2em;
+	left:0;
+	bottom:-103px;
+	color: #555555;
+	background:rgba(255,255,255,0.6);
+	padding:1em 0 1em 2em;
+	width:100%;
+	transition:all 1s ease-in-out;
+}
+
+.gallery li .item:hover span {
+	bottom:0;
+
+}
+
+
+
+
+/* Flexbox
+-----------------------------*/
+
+ul li img {
+	display:block;
+}
+
+
+.overlay{
+	padding:0;
+	list-style:none;
+	background:pink;
+	display:flex;
+
+	}
+
+/*Mobile size*/
+
+@media screen and (min-width:500px)  {
+	.gallery, .def {
+		display:-webkit-flex;
+		display:flex;
+		flex-wrap:wrap;	
+	}
+
+}
+
+/*tablet size*/
+
+@media screen and (min-width:800px)  {
+	.gallery, .def {
+		display:-webkit-flex;
+		display:flex;
+	}
+
+	.gallery li {
+		width:50%;
+	}
+
+}
+
+/*desktop size*/
+
+@media screen and (min-width:1260px)  {
+	.gallery, .def {
+		display:-webkit-flex;
+		display:flex;
+	}
+
+	.gallery li {
+		width:33.3333%;
+	}
+
+
+} /*Leave here end of media query*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
