@@ -1,5 +1,6 @@
 body {
 	margin:0;
+	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -12,12 +13,18 @@ img{
 	height:auto;
 }
 
+
 .def{
 	max-width: 100%;
 	height:auto;
+	position: relative;
 }
 
-
+.back{
+	position: absolute;
+	top:0;
+	left:0;
+}
 
 /* skateboard overlay
 ------------------------------------------*/
@@ -93,7 +100,7 @@ ul li img {
 
 	.gallery li {
 		width:50%;
-	}
+	}d
 
 }
 
