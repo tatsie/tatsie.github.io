@@ -1,6 +1,8 @@
 body {
 	margin:0;
 	font-family: 'Roboto', sans-serif;
+	background:#000000;
+	color:#ffffff;
 }
 
 
@@ -33,8 +35,10 @@ img{
 	list-style:none;
 	padding:0;
 	margin:0;
-	background:#000000; 
 }
+
+	
+
 
 .gallery li .item, .def {
 	position:relative;
