@@ -81,6 +81,9 @@ img{
 	flex-wrap: wrap;
 }
 
+.thumbs li {
+		width:50%;
+	}
 
 
 /* Flexbox
@@ -120,7 +123,11 @@ ul li img {
 
 	.gallery li {
 		width:50%;
-	}d
+	}
+
+	.thumbs li {
+		width:25%;
+	}
 
 }
 
@@ -134,6 +141,10 @@ ul li img {
 
 	.gallery li {
 		width:33.3333%;
+	}
+
+	.thumbs li {
+		width:16.66666%;
 	}
 
 
