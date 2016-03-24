@@ -35,6 +35,8 @@ img{
 	position: absolute;
 	top:0;
 	left:0;
+	width:45px;
+	opacity:.7; 
 }
 
 /* skateboard overlay
